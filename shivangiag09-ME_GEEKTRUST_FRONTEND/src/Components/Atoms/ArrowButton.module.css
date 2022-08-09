@@ -1,0 +1,35 @@
+
+.iconImg{
+  display: flex;
+  align-items: center;
+    width: 1rem;
+}
+.btnDivArrow{
+    padding: 0.5rem 0.5rem;
+  border-radius: 50%;
+  background-color: #0096FF;
+  border: none;
+  color: white;
+  position: relative;
+  margin:0.7rem;
+  margin-right: 1em;
+  margin-left: 1em;
+}
+.btnDivArrow:hover{
+    cursor: pointer;
+}
+
+.btnDivArrowDisabled{
+   padding: 0.5rem 0.5rem;
+     border-radius: 50%;
+  background-color: 	rgb(211,211,211,0.5);
+  border: none;
+  color: white;
+  position: relative;
+  margin:0.7rem;
+  margin-right: 1em;
+  margin-left: 1em;
+}
+.btnDivArrowDisabled:hover{
+    cursor: no-drop;
+}

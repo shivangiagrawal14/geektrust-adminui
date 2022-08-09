@@ -1,0 +1,12 @@
+.icon{
+    height:1rem;
+    background-color: white;
+    width: 1rem;
+}
+.btn{
+    background-color: white;
+    border: none;
+}
+.btn:hover{
+    cursor: pointer;
+}

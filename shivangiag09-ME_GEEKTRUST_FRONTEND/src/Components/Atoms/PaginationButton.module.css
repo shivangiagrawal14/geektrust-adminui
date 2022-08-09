@@ -1,0 +1,28 @@
+.btnDiv{
+    padding:0.5rem 0.8rem;
+    border-radius: 50%;
+    background-color: #0096FF;
+    color: white;
+    border: none;
+    margin:0.8rem 0.7rem;
+    
+}
+.btnDiv:hover{
+    cursor: pointer;
+}
+.iconImg{
+    height:0.rem;
+  display: flex;
+  align-items: center;
+    width: 1rem;
+    
+}
+
+.btnDivSelected{
+    border-radius: 50%;
+    padding:0.5rem 0.8rem;
+    border:1px solid  #0096FF;
+    background-color: white;
+    color:#0096FF;
+    margin:0.8rem 0.7rem;
+}

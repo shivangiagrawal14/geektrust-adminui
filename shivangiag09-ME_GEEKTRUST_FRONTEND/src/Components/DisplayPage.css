@@ -1,0 +1,76 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+tr {
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+}
+
+th {
+    padding: 10px;
+   
+    text-align: left;    
+}
+td{
+    padding: 12px;
+   overflow: auto;
+}
+.displayPage{
+    padding:1rem 3rem;
+}
+.user-actions{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+}
+.pagination-btn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.delete-selected{
+    background-color: #ff0063;
+    color: white;
+    padding:1rem 1rem;
+    border: none;
+    border-radius: 2rem;
+}
+.delete-selected:hover{
+    cursor: pointer;
+}
+
+@media screen and (max-width: 800px) {
+  
+   .user-actions{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+   }
+   .pagination-btn{
+    width: 100%;
+    margin: auto;
+   }
+   .search{
+    display: flex;
+   }
+  }
+  
+  @media screen and (max-width: 600px) {
+  
+    .pagination-btn{
+        display: flex;
+        padding: 0 5px;
+        margin: auto;
+        width: 100%;
+    }
+    .displayPage{
+        padding: 1rem 1rem;
+    }
+   }
+.trHighlighted{
+    background-color: #f9f5eb;
+}
+  
